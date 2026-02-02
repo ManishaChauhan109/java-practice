@@ -18,3 +18,5 @@ public class Fabonnaci_DP_Tabular {
         System.out.println("Fabonacci of " + n + " is: " + fun(n,dp));
     } 
 }
+// time complexity: O(n) as we fill the dp array of size n
+// space complexity: O(n) for the dp array

@@ -21,3 +21,5 @@ public class Optimization_of_Tabular_Fib {
         System.out.println("Fabonacci of " + n + " is: " + fib(n));
     } 
 }
+// time complexity: O(n) as we iterate from 2 to n
+// space complexity: O(1) as we use only constant space
