@@ -19,4 +19,6 @@ class Fabonnaci_DP{
         System.out.println("Fabonacci of " + n + " is: " + fabonacci(n,dp));
     } 
 }
+// time complexiy: O(n) as the function call only n times
+// space complexity: O(n) for the dp array and O(n) for the recursion stack, overall O(n)
 
