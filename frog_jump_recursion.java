@@ -4,9 +4,12 @@ public class frog_jump_recursion {
         if (n == 0) {
             return 0;
         }
-         left=minEnergy(n-1,height)+Math.abs(height[n]-height[n-1]);
+           left=minEnergy(n-1,height)+Math.abs(height[n]-height[n-1]);
          if(n>1){
-         right=minEnergy(n-2, height)+Math.abs(height[n]-height[n-2]);
+          right=minEnergy(n-2, height)+Math.abs(height[n]-height[n-2]);
+         }
+         else{
+            right=Integer.MAX_VALUE;
          }
         return Math.min(left,right);
     }
